@@ -1,36 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Colorful Name</title>
-    <style>
-      h1 {
-        font-size: 36px; /* Adjust font size as needed */
-      }
-      span:nth-child(1) {
-        color: red;
-      }
-      span:nth-child(2) {
-        color: blue;
-      }
-      span:nth-child(3) {
-        color: green;
-      }
-      span:nth-child(4) {
-        color: brown;
-      }
-      span:nth-child(5) {
-        color: rgb(112, 8, 112);
-      }
-      span:nth-child(6) {
-        color: orange;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>
-      <span>A</span><span>M</span><span>R</span><span>E</span><span>S</span><span>H</span>
-    </h1>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ImageGallery</title>
+  <style>
+    section {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    div1,div2,div3,div4,div5{
+      padding: 5%;
+    }
+  </style>
+</head>
+
+<body>
+  <section>
+    <div1 class="gallery">
+      <a target="_blank" href="./1.jpg">
+        <img src="./1.jpg" alt="Moon" width="200" height="200">
+      </a>
+      <div class="desc">Moon 
+      </div>
+    </div1>
+
+    <div2 class="gallery">
+      <a target="_blank" href="./2">
+        <img src="./2.jpeg" alt="Lion" width="200" height="200">
+      </a>
+      <div class="desc">Lion  </div>
+    </div2>
+
+    <div3 class="gallery">
+      <a target="_blank" href="./5.jpg">
+        <img src="./5.jpg" alt="sunset" width="200" height="200">
+      </a>
+      <div class="desc">Evening Sunset</div>
+    </div3>
+
+    <div4 class="gallery">
+      <a href="./3.jpeg" target="_blank">
+        <img src="./3.jpeg" alt="Elephant" width="200" height="200">
+      </a>
+      <div class="desc">Elephant</div>
+    </div4>
+    <div5 class="gallery">
+      <a href="./4.jpeg" target="_blank">
+        <img src="./4.jpeg" alt="Goat" width="200" height="200">
+      </a>
+      <div class="desc">Goat</div>
+    </div5>
+  </section>
+
+</body>
+
+</html>
+</body>
+
 </html>
